@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgb(231, 234, 234);
+    padding: 10px 200px;
+    justify-content: space-between;
+    z-index: 5;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    position: fixed;
+}
+
+.logo {
+    text-decoration: none;
+    color: blue;
+    font-weight: 700;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.nav a {
+    text-decoration: none;
+    color: blue;
+    padding-left: 30px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.nav a:hover {
+    color: rgb(162, 0, 255);
+}
+
+section {
+    padding: 20px 200px;
+    background-size: 100%;
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.main,
+.project {
+    background: url(minimal-dark-coding-wallpaper.png) fixed no-repeat center;
+    align-items: center;
+    background-size: cover;
+}
+
+.dmain {
+    margin-left: -830px;
+}
+
+.main h2 {
+    font-size: 1.1em;
+    color: white;
+    font-weight: 400;
+    margin-left: -30px;
+    margin-bottom: -15px;
+}
+
+.main .ff {
+    font-size: 1.7em;
+    color: blue;
+    font-weight: 700;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.main .gg {
+    font-size: 1.4em;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.main h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.main-botton {
+    background-color: blue;
+    border-radius: 23px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: -3px;
+    margin-bottom: 15px;
+    text-align: center;
+    transition: 0.7s ease;
+}
+
+.main-botton:hover {
+    background-color: rgba(3, 3, 217, 0.996);
+    transform: scale(1.1);
+}
+
+.links {
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+.links img {
+    text-decoration: none;
+    width: 2em;
+    height: 2em;
+    margin-left: 15px;
+}
+
+.secondry {
+    display: block;
+}
+
+h2 {
+    color: blue;
+    font-size: 1.em;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 7vh;
+    margin-top: 65px;
+}
+
+.secondry h3 {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-left: 78px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.css h3 {
+    margin-left: 83px;
+}
+
+.java h3 {
+    margin-left: 52px;
+}
+
+.secondry div img {
+    width: 5em;
+    height: 5em;
+    color: aliceblue;
+    margin-left: 4em;
+}
+
+.secondry div {
+    background-color: rgb(239, 239, 239);
+    width: 15em;
+    min-height: 20em;
+    display: inline-block;
+    margin-left: 101px;
+    padding: 10px;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 30%);
+    transition: .8s ease;
+}
+
+.secondry div:hover,
+.contact .c2 div:hover,
+.project .info:hover {
+    background-color: rgb(219, 219, 219);
+    transform: scale(1.1);
+}
+
+.secondry p {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+}
+
+.css {
+    margin-top: -20px;
+}
+
+.project .info {
+    height: 15em;
+    width: 15em;
+    border: 2px;
+    border-style: solid;
+    background-color: rgb(239, 239, 239);
+    border-radius: 20px;
+    margin: 20px;
+    transition: .7s ease;
+}
+
+.project h3 {
+    padding: 20px;
+    font-weight: 500;
+    margin-top: -20px;
+}
+
+.project span {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: -30px;
+
+}
+
+.project a {
+    text-decoration: none;
+    color: blue;
+    font-size: .8em;
+    font-weight: 300;
+}
+
+.project p {
+    font-weight: 400;
+    font-size: .9em;
+}
+
+.project img {
+    width: 14.5em;
+    margin-top: 1px;
+    height: 10em;
+    border-radius: 20px;
+    margin-left: 2px;
+    transition: .7s ease;
+}
+
+.project img:hover {
+    opacity: 0.9;
+}
+
+.contact .c2 div {
+    width: 10em;
+    height: 10em;
+    background-color: rgb(239, 239, 239);
+    border-radius: 140px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 70%);
+    margin-left: 90px;
+    transition: .7s ease;
+    text-decoration: none;
+}
+
+.c2 {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: -100px;
+    z-index: 2;
+}
+
+.card img,
+.card2 img {
+    width: 8em;
+    padding-left: 33px;
+    margin-top: 25px;
+}
+
+.card img {
+    margin-top: 31px;
+}
+
+@media (max-width:767px) {
+    section {
+        position: relative;
+    }
+
+    header {
+        justify-content: space-around;
+    }
+
+    .project .info {
+        margin-left: 50px;
+
+    }
+
+    .dmain {
+        margin-left: 0px;
+    }
+
+    .dmain h2 {
+        margin-left: 0px;
+        margin-bottom: -5px;
+    }
+
+    .contact .c2 div {
+        margin-left: 150px;
+        margin-bottom: 20px;
+    }
+
+    .secondry {
+        min-height: 140vh;
+    }
+
+    .secondry div {
+        position: absolute;
+        left: -10px;
+    }
+
+    .secondry div:nth-of-type(2) {
+        top: 420px;
+    }
+
+    .secondry div:first-of-type {
+        top: 60px;
+    }
+
+    .secondry div:last-of-type {
+        top: 780px;
+    }
+}
